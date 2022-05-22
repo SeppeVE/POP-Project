@@ -1,0 +1,31 @@
+.btn-danger {
+  background-color: #9C7E76;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #E8DCD3;
+  border: none;
+  color: black;
+}
+
+.btn-danger:active {
+  background-color: #E8DCD3;
+  border: none;
+  color: black;
+}
+
+main {
+  min-height: 80vh;
+}
+
+button {
+  height: 70px;
+}
+
+footer {
+  clear: both;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=contact.css.map */
