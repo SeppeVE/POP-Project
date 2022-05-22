@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
+    <link rel="manifest" href="/images/fav/site.webmanifest">
+    <link rel="mask-icon" href="/images/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/fav/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/images/fav/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>ElineV.E Photography</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+<header class="mb-3">
+    <nav class="navbar navbar-expand-lg p-3 navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo_svg.svg" alt="Logo" height="36">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">Over Mezelf</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="overzicht.html">Overzicht</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="gallery/gezin.html">Gezin & Familie</a></li>
+                            <li><a class="dropdown-item" href="gallery/kids.html">Kids</a></li>
+                            <li><a class="dropdown-item" href="gallery/cake.html">Cake Smash</a></li>
+                            <li><a class="dropdown-item" href="gallery/zwangerschap.html">Zwangerschap</a></li>
+                            <li><a class="dropdown-item" href="gallery/communie.html">Communie / Lentefeest</a></li>
+                            <li><a class="dropdown-item" href="gallery/portret.html">Portret</a></li>
+                            <li><a class="dropdown-item" href="gallery/huwelijk.html">Huwelijksreportage</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="container d-flex flex-lg-row flex-sm-column p-2">
+    <div class="mt-5">
+        <p class="fs-5 mb-5">Voor meer informatie of boekingen, contacteer me gerust.</p>
+        <p>Schans 4/1 2450 Meerhout</p>
+        <p>0493 06 07 82</p>
+        <p class="mb-5">BTW: 0722.935.951</p>
+        <p><a href="images/AV_ElineVE.pdf">Algemene voorwaarden</a></p>
+    </div>
+
+    <form action="https://formsubmit.co/seppevaneynde2003@gmail.com" method="POST" class="row mt-5">
+        <div class="mb-3 col-lg-3 offset-lg-5">
+            <label for="exampleFormControlInput3" class="form-label">Voornaam</label>
+            <input type="text" class="form-control" id="exampleFormControlInput3" name="Voornaam" required>
+        </div>
+        <div class="mb-3 col-lg-3">
+            <label for="exampleFormControlInput4" class="form-label">Achternaam</label>
+            <input type="text" class="form-control" id="exampleFormControlInput4" name="Achternaam" required>
+        </div>
+        <div class="mb-3 col-lg-3 offset-lg-5">
+            <label for="exampleFormControlInput1" class="form-label">Email adres</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="Email" required>
+        </div>
+        <div class="mb-3 col-lg-3">
+            <label for="exampleFormControlInput8" class="form-label">Telefoonnummer</label>
+            <input type="text" class="form-control" id="exampleFormControlInput8" name="Tel." required>
+        </div>
+        <div class="mb-3 col-lg-6 offset-lg-5">
+            <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="Bericht" required></textarea>
+            <input type="hidden" name="_next" value="https://eveph.sinners.be/submitted.html">
+        </div>
+
+
+        <button type="submit" class="col-lg-2 offset-lg-5 btn btn-danger mb-5 mt-2">Verstuur</button>
+
+    </form>
+
+</main>
+<footer class="d-flex flex-row justify-content-around mt-3 pt-3">
+    <p class="align-middle">&copy;2022 ElineV.E Photography</p>
+    <div class="fs-5"><a href="https://www.facebook.com/Elinev.ePhotography"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/elinev.ephotography/"><i class="fab fa-instagram"></i></a></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="init.js"></script>
+</body>
+</html>

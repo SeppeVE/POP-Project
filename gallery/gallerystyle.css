@@ -1,0 +1,15 @@
+header {
+  width: 100%;
+}
+
+ul {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=gallerystyle.css.map */
